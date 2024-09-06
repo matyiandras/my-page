@@ -1,10 +1,14 @@
 import photo from '../assets/images/me-removebg-preview.png'
+import { Navbar } from '../layout/Navbar'
 import { Navigation } from '../layout/Navigation'
 import { About } from './About'
+import { Contact } from './Contact'
 import { Projects } from './Projects'
+
 export const Home = () => {
     return (
         <div>
+            <Navbar />
             <div id='home' className="flex py-4 w-full justify-center  ">
                 <div className='relative'>
                     <div className='flex justify-center px-4 font-serif text-9xl text-black'>
@@ -20,6 +24,7 @@ export const Home = () => {
             </div>
             <About />
             <Projects />
+            <Contact />
         </div>
 
     )
