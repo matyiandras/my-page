@@ -1,9 +1,7 @@
-import { useLocation } from "react-router-dom"
+
 import { HashLink } from "react-router-hash-link"
 
 export const Navigation = () => {
-
-    const { hash } = useLocation()
 
     const scrollWithOffset = (el: any, offset: number) => {
         const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;

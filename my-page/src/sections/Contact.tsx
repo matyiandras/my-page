@@ -1,6 +1,6 @@
 
-import { BiPhoneCall } from "react-icons/bi"
-import { FaLongArrowAltRight, FaPhone } from "react-icons/fa"
+
+import { FaLongArrowAltRight } from "react-icons/fa"
 import { SlEnvolope, SlPhone, SlSocialGithub, SlSocialLinkedin } from "react-icons/sl"
 
 export const Contact = () => {

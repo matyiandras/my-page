@@ -1,8 +1,7 @@
 
 import { FaLongArrowAltRight } from "react-icons/fa"
 import { motion, useScroll, useMotionValueEvent } from "framer-motion"
-import { useEffect, useState } from "react";
-import { ins } from "framer-motion/client";
+import { useState } from "react";
 
 export const About = () => {
 
